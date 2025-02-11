@@ -26,3 +26,15 @@ Les applications seront accessibles aux URLs suivantes :
 - Hot Module Replacement (HMR) est activé pour le développement
 - TypeScript est configuré pour la vérification des types
 - Les composants React sont chargés de manière lazy avec Suspense
+
+Les applications seront automatiquement ouvertes dans votre navigateur par défaut aux URLs suivantes :
+
+- Header MFE : http://localhost:3001
+- Shell : http://localhost:3000
+
+### Scripts disponibles
+
+Dans chaque projet (shell et header-mfe) :
+
+- `npm start` : Démarre l'application en mode développement
+- `npm run build` : Crée une version de production
